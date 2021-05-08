@@ -1,0 +1,30 @@
+.container {
+    background-color: #E5E5E5;
+    width: 66rem;
+    margin: 0 auto;
+    height: 42rem;
+    margin-top: 8rem;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    box-shadow: 1px 2px 1rem rgba(0,0,0,0.5);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: var(--titleSize);
+    color: var(--black);
+    line-height: 54px;
+}
+
+.price {
+    font-size: var(--textSize);
+    color: var(--orange);
+    margin-bottom: 3rem;
+}

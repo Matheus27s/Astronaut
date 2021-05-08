@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #ffffff;
+    --green: #42F98B;
+    --purple: #A717EB;
+    --orange: #EB6317;
+    --black: #000000;
+
+    --background-primary: #000000;
+    --background-secundary: #1F2729;
+
+    --titleSize: 2.4rem; //36px
+    --textSize: 1.2rem; //18px
+
+    --font: 400 1rem "Kanit", sans-serif;
+    --fontTitle: 700 1rem "Kanit", sans-serif;
+
+}
+
+@media(max-width: 1080px) {
+    html {
+        font-size: 93.75%; // é igual a 16 x 0,9375 = 15px
+    }
+}
+
+@media(max-width: 720px) {
+    html {
+        font-size: 87.5%; // é igual a 16 x 0,875 = 14px
+    }
+}
+
+//REM = 1rem é igual ao tamanho do fontSize da página, ou seja, 
+
+body {
+    background: var(--background-primary);
+    background-image: url("/images/desert-background.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    color: var(--white);
+    height: 100vh;
+}
+
+body, input, textarea select button {
+    font: 400 1rem "Kanit", sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: inherit; //Cor do elemento pai.
+    text-decoration: none;
+}
